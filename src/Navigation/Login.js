@@ -14,12 +14,14 @@ const Login = ({ navigation }) => {
       <SafeAreaView >
        
         <Text style={styles.title}>Login</Text>
+        <View>
         <TextInput
           style={styles.input}
           onChangeText={onChangeText}
           value={text}
           placeholder="User Name"
         />
+        </View>
 
         <TextInput
           style={styles.input}
@@ -31,7 +33,7 @@ const Login = ({ navigation }) => {
         
       </SafeAreaView>
       <View style={{ height: 140, }}>
-        <View style={{ marginTop: 30, width: 160, marginLeft: 120 }}>
+        <View style={{ marginTop: 30, width: 160, marginLeft: 120, }}>
           <Button
             title="login"
             color="#D35400"

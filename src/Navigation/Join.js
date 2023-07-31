@@ -39,14 +39,14 @@ const Join = ({ navigation }) => {
                     <Button
                         title="YES"
                         color="#229954"
-                        onPress={() => navigation.navigate('Login')}
+                        onPress={() => navigation.navigate('Dashborad')}
                     />
                 </View>
                 <View style={{ marginTop: 30, width: 160, marginRight:20, borderRadius: 10, }}>
                     <Button
                         title="NO"
                         color="#FE0B04"
-                        onPress={() => navigation.navigate('Log')}
+                        onPress={() => navigation.navigate('Dashborad')}
                     />
                 </View>
             </View>

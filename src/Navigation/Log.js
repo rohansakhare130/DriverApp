@@ -14,6 +14,8 @@ const Log = ({ navigation }) => {
     <View style={{ flex: 1, backgroundColor: "#D35400" }}>
 
       <Pressable onPress={() => navigation.navigate('Home')}>
+        
+        
         <Image
           style={{
             width: 200,
@@ -45,9 +47,8 @@ const styles = StyleSheet.create({
     width: 50,
     marginLeft: 165,
     marginTop: -55,
-
+    
   }
-
 
 });
 
